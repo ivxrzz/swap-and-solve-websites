@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Games Store</title>
+    <script src ="SNS2.js"></script>
+    <link rel="stylesheet" href="Swap%20and%20Solve%202%20Style.css">
+</head>
+<body>
+<h1>Welcome to Our Video Game Store</h1>
+
+<div id="games-list">
+    <div class="game-card" style="background-image: url('Monster Hunter.jpg');">
+        <div class="game-title">Monster Hunter</div>
+        <div class="game-price">$79.99</div>
+        <input type="radio" name="selected-game" value="0">
+    </div>
+
+    <div class="game-card" style="background-image: url('EldenRing.jpg');">
+        <div class="game-title">Elden Ring </div>
+        <div class="game-price">$139.99</div>
+        <input type="radio" name="selected-game" value="1">
+    </div>
+
+    <div class="game-card" style="background-image: url('Tekken8.jpeg');">
+        <div class="game-title">Tekken 8</div>
+        <div class="game-price">$89.99</div>
+        <input type="radio" name="selected-game" value="2">
+    </div>
+</div>
+
+<label for="vip-status">Are you a VIP?</label>
+<input type="checkbox" id="vip-status">
+
+<button id="purchase-btn">Purchase</button>
+
+<div id="total-price"></div>
+
+</body>
+</html>
